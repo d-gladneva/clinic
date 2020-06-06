@@ -5,45 +5,45 @@ const Main = () => {
 
     return (<html lang="ru">
     <head>
-        <meta charSet="UTF-8">
+        <meta charSet="UTF-8" />
             {/*Для всяких-всяких*/}
-            <meta name="referrer" content="origin">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="referrer" content="origin" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="viewport"
-                          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
                         <title>Clinic</title>
                         {/*Для SSL*/}
-                        <link rel="alternate" hrefLang="ru" href="https://clinicapp.ru/">
+                        <link rel="alternate" hrefLang="ru" href="https://clinicapp.ru/" />
                             {/*Иконка для вкладки*/}
-                            <link rel="shortcut icon" href="favicon.png" type="image/png">
+                            <link rel="shortcut icon" href="favicon.png" type="image/png" />
                                 {/*Изображения для соц сетей*/}
-                                <link rel="image_src" href="img/link_img.jpg">
+                                <link rel="image_src" href="img/link_img.jpg" />
                                     <meta property="og:image" content="img/link_img.jpg"/>
-                                    <meta itemProp="image" content="img/link_img.jpg">
+                                    <meta itemProp="image" content="img/link_img.jpg" />
                                         {/*Шрифты*/}
                                         <link
                                             href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap"
-                                            rel="stylesheet">
+                                            rel="stylesheet" />
                                             <script src="https://use.fontawesome.com/ac0d0afa18.js"></script>
                                             {/*Стили*/}
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/vendor/bootstrap.min.css"/>
+                                                  href="css/vendor/bootstrap.min.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/vendor/owl.carousel.min.css"/>
+                                                  href="css/vendor/owl.carousel.min.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/vendor/fm.revealator.jquery.min.css"/>
+                                                  href="css/vendor/fm.revealator.jquery.min.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/vendor/slick.css"/>
+                                                  href="css/vendor/slick.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/vendor/slick-theme.css"/>
+                                                  href="css/vendor/slick-theme.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/vendor/pushy.css"/>
+                                                  href="css/vendor/pushy.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/vendor/chosen.css"/>
+                                                  href="css/vendor/chosen.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/fonts.css"/>
+                                                  href="css/fonts.css" />
                                             <link rel="stylesheet" type="text/css"
-                                                  href="css/main.css"/>
+                                                  href="css/main.css" />
                                             <link rel="stylesheet"
                                                   type="text/css" href="css/media.css" />
     </head>
@@ -52,7 +52,7 @@ const Main = () => {
     <nav className="pushy pushy-left">
         <div className="pushy-content">
             <ul>
-                <!-- Submenu -->
+                {/*Submenu*/}
                 <ul className="pushy-list">
                     <li className="pushy-title"><a href="#"><i className="fa fa-users" aria-hidden="true"></i>Для
                         пользователей</a></li>
@@ -90,18 +90,18 @@ const Main = () => {
             </ul>
         </div>
     </nav>
-    <!-- Серая зона -->
+    {/*Серая зона*/}
     <div className="site-overlay"></div>
-    <!-- Конец бургер меню -->
+    {/*Конец бургер меню*/}
 
-    <!-- Первая секция -->
+    {/*Первая секция*/}
     <header>
-        <!-- Меню -->
+        {/*Меню*/}
         <section className="menu clearfix ">
-            <!-- Лого -->
+            {/*Лого*/}
             <a href="https://clinicapp.ru" target="_blank" className="logo"><img
-                className="revealator-slidedown revealator-once" src="img/cliniclogo1.png" alt="Clinic"></a>
-            <!-- Навигация -->
+                className="revealator-slidedown revealator-once" src="img/cliniclogo1.png" alt="Clinic" /></a>
+            {/*Навигация*/}
             <div className="nav-menu-box">
                 <ul className="nav-menu clearfix revealator-slidedown revealator-once">
                     <li className="nav-menu_item"><a href="#"><i className="fa fa-users" aria-hidden="true"></i>Для
@@ -131,29 +131,29 @@ const Main = () => {
                     </li>
                 </ul>
             </div>
-            <!-- Регистрация -->
+            {/*Регистрация*/}
             <div className="log-in-box revealator-slidedown revealator-once">
                 <a href="#" className="log-in clearfix"><span>Вход \ Регистрация</span><i
                     className="fa fa-heartbeat" aria-hidden="true"></i></a>
             </div>
-            <!-- Бургер меню -->
+            {/*Бургер меню*/}
             <i className="menu_burger menu-btn fa fa-bars" aria-hidden="true"></i>
         </section>
-        <!-- Сама первая секция -->
+        {/*Самая первая секция*/}
         <section className="main">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <h1 className="main_title">Выберите ветеринарную клинику, <br>которая больше всего вам
+                        <h1 className="main_title">Выберите ветеринарную клинику, <br />которая больше всего вам
                             подходит:</h1>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <!-- Форма -->
+                        {/*Форма*/}
                         <form className="main_form hover-anim" method="post" name="main_form" className="main_form">
                             <div className="select-box">
-                                <!-- Первый список -->
+                                {/*Первый список*/}
                                 <select className="main_form_list list-main1" data-placeholder="Ваш город"
                                         placeholder="Ваш город">
                                     <option className="youCity"></option>
@@ -173,7 +173,7 @@ const Main = () => {
                                     <option>Уфа</option>
                                     <option>Санкт - Петербург</option>
                                 </select>
-                                <!-- Второй список -->
+                                {/*Второй список*/}
                                 <select className="main_form_list list-main2" data-placeholder="Клиника"
                                         placeholder="Клиника">
                                     <option className="youClinic"></option>
@@ -184,23 +184,23 @@ const Main = () => {
                                     <option>5..</option>
                                 </select>
                             </div>
-                            <!-- Кнопочка -->
+                            {/*Кнопочка*/}
                             <input type="submit" name="main_form-submit"
                                    className="button-submit main-button revealator-zoomin revealator-once revealator"
-                                   value="Записаться на приём">
+                                   value="Записаться на приём" />
                         </form>
                     </div>
                 </div>
             </div>
         </section>
     </header>
-    <!-- Вторая секция -->
+    {/*Вторая секция*/}
     <section className="comment">
         <div className="container">
             <div className="row">
                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <h2 className="section-title comment_title">
-                        Главврачи о своих клиниках <br>и сотрудничестве с нами
+                        Главврачи о своих клиниках <br />и сотрудничестве с нами
                     </h2>
                 </div>
             </div>
@@ -352,45 +352,45 @@ const Main = () => {
             </div>
         </div>
     </section>
-    <!-- Третья секция -->
+    {/*Третья секция*/}
     <section className="article">
         <div className="container">
             <div className="row">
                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <h2 className="section-title article_title revealator-slideup revealator-once">
-                        Статьи и рекомендации по уходу <br>за любимыми питомцами
+                        Статьи и рекомендации по уходу <br />за любимыми питомцами
                     </h2>
                 </div>
             </div>
             <div className="rowowl">
-                <!-- <div class="article_slider">
-                    <div class="slider_arrow arrow-left revealator-slideleft revealator-once"></div>
-                    <div class="article_slider_item clearfix">
-                        <a href="#">
-                            <img src="img/slider-img1.png" class="article_slider_item_img" alt="Slider Image">
-                            <div class="article_slider_item_content">
-                                <h3 class="article_slider_item_title">
-                                    Кормить ли кошек рыбой и молоком?
-                                </h3>
-                                <p class="article_slider_item_date">
-                                    01.01.2019
-                                </p>
-                                <ul class="article_slider_item_star-list">
-                                    <li class="star-list_item"><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li class="star-list_item"><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li class="star-list_item"><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li class="star-list_item"><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
-                                    <li class="star-list_item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="slider_arrow arrow-right revealator-slideright revealator-once"></div>
-                </div> -->
+            {/*    <div class="article_slider">*/}
+            {/*        <div class="slider_arrow arrow-left revealator-slideleft revealator-once"></div>*/}
+            {/*        <div class="article_slider_item clearfix">*/}
+            {/*            <a href="#">*/}
+            {/*                <img src="img/slider-img1.png" class="article_slider_item_img" alt="Slider Image">*/}
+            {/*                <div class="article_slider_item_content">*/}
+            {/*                    <h3 class="article_slider_item_title">*/}
+            {/*                        Кормить ли кошек рыбой и молоком?*/}
+            {/*                    </h3>*/}
+            {/*                    <p class="article_slider_item_date">*/}
+            {/*                        01.01.2019*/}
+            {/*                    </p>*/}
+            {/*                    <ul class="article_slider_item_star-list">*/}
+            {/*                        <li class="star-list_item"><i class="fa fa-star" aria-hidden="true"></i></li>*/}
+            {/*                        <li class="star-list_item"><i class="fa fa-star" aria-hidden="true"></i></li>*/}
+            {/*                        <li class="star-list_item"><i class="fa fa-star" aria-hidden="true"></i></li>*/}
+            {/*                        <li class="star-list_item"><i class="fa fa-star-half-o" aria-hidden="true"></i></li>*/}
+            {/*                        <li class="star-list_item"><i class="fa fa-star-o" aria-hidden="true"></i></li>*/}
+            {/*                    </ul>*/}
+            {/*                </div>*/}
+            {/*            </a>*/}
+            {/*        </div>*/}
+            {/*        <div class="slider_arrow arrow-right revealator-slideright revealator-once"></div>*/}
+            {/*    </div>*/}
                 <div className="owl-carousel article_slider">
                     <div className="article_item">
                         <a href="#">
-                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image">
+                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image" />
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?
@@ -415,33 +415,7 @@ const Main = () => {
                     </div>
                     <div className="article_item">
                         <a href="#">
-                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image">
-                                <div className="article_slider_item_content">
-                                    <h3 className="article_slider_item_title">
-                                        Кормить ли кошек рыбой и молоком?
-                                    </h3>
-                                    <p className="article_slider_item_date">
-                                        01.01.2019
-                                    </p>
-                                    <ul className="article_slider_item_star-list">
-                                        <li className="star-list_item"><i className="fa fa-star"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star-half-o"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star-o"
-                                                                          aria-hidden="true"></i></li>
-                                    </ul>
-                                </div>
-                        </a>
-                    </div>
-
-                    <div className="article_item">
-                        <a href="#">
-                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image">
+                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image" />
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?
@@ -467,7 +441,7 @@ const Main = () => {
 
                     <div className="article_item">
                         <a href="#">
-                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image">
+                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image" />
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?
@@ -493,7 +467,33 @@ const Main = () => {
 
                     <div className="article_item">
                         <a href="#">
-                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image">
+                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image" />
+                                <div className="article_slider_item_content">
+                                    <h3 className="article_slider_item_title">
+                                        Кормить ли кошек рыбой и молоком?
+                                    </h3>
+                                    <p className="article_slider_item_date">
+                                        01.01.2019
+                                    </p>
+                                    <ul className="article_slider_item_star-list">
+                                        <li className="star-list_item"><i className="fa fa-star"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star-half-o"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star-o"
+                                                                          aria-hidden="true"></i></li>
+                                    </ul>
+                                </div>
+                        </a>
+                    </div>
+
+                    <div className="article_item">
+                        <a href="#">
+                            <img src="img/slider-img1.png" className="article_slider_item_img" alt="Slider Image" />
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?
@@ -527,12 +527,12 @@ const Main = () => {
             </div>
         </div>
     </section>
-    <!-- Четвёртая секция -->
+    {/*Четвёртая секция*/}
     <section className="price">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <img src="img/main.svg" className="price_img">
+                    <img src="img/main.svg" className="price_img" />
                         <div className="price_content">
                             <h2 className="section-title price_title">
                                 Всегда знайте стоимость посещения врача наперед
@@ -542,7 +542,7 @@ const Main = () => {
                             </p>
                             <form method="post" name="price" className="price_form">
                                 <input type="tel" name="price-tel" placeholder="+7(___) ___ __ __*"
-                                       autoComplete="off" className="price_phone form-input phone-form">
+                                       autoComplete="off" className="price_phone form-input phone-form" />
                                     <input type="submit" name="price-button" value="Заказать услугу"
                                            className="button-submit button-price revealator-slideright revealator-once">
                             </form>
@@ -551,12 +551,12 @@ const Main = () => {
             </div>
         </div>
     </section>
-    <!-- Пятая секция -->
+    {/*Пятая секция*/}
     <section className="access">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <img src="img/IphoneX.png" className="access_img">
+                    <img src="img/IphoneX.png" className="access_img" />
                         <div className="access_content">
                             <h2 className="section-title access_title">
                                 Быстрый доступ к Clinic
@@ -593,7 +593,7 @@ const Main = () => {
             </div>
         </div>
     </section>
-    <!-- Шестая секция -->
+    {/*Шестая секция*/}
     <section className="city">
         <div className="container">
             <div className="row">
@@ -609,10 +609,10 @@ const Main = () => {
             </div>
             <div className="rowOwl">
                 <div className="city_slider_owl owl-carousel">
-                    <!-- <div class="slider_arrow arrow-left arrow-city revealator-slideleft revealator-once"></div> -->
+                    {/*<div class="slider_arrow arrow-left arrow-city revealator-slideleft revealator-once"></div>*/}
                     <div className="city_slider_item">
                         <a href="#" className="city_slider_item_content">
-                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image">
+                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image" />
                                 <h3 className="city_slider_title">
                                     Москва
                                 </h3>
@@ -620,7 +620,7 @@ const Main = () => {
                     </div>
                     <div className="city_slider_item">
                         <a href="#" className="city_slider_item_content">
-                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image">
+                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image" />
                                 <h3 className="city_slider_title">
                                     Москва
                                 </h3>
@@ -628,7 +628,7 @@ const Main = () => {
                     </div>
                     <div className="city_slider_item">
                         <a href="#" className="city_slider_item_content">
-                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image">
+                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image" />
                                 <h3 className="city_slider_title">
                                     Москва
                                 </h3>
@@ -636,7 +636,7 @@ const Main = () => {
                     </div>
                     <div className="city_slider_item">
                         <a href="#" className="city_slider_item_content">
-                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image">
+                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image" />
                                 <h3 className="city_slider_title">
                                     Москва
                                 </h3>
@@ -644,7 +644,7 @@ const Main = () => {
                     </div>
                     <div className="city_slider_item">
                         <a href="#" className="city_slider_item_content">
-                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image">
+                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image" />
                                 <h3 className="city_slider_title">
                                     Москва
                                 </h3>
@@ -652,7 +652,7 @@ const Main = () => {
                     </div>
                     <div className="city_slider_item">
                         <a href="#" className="city_slider_item_content">
-                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image">
+                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image" />
                                 <h3 className="city_slider_title">
                                     Москва
                                 </h3>
@@ -660,13 +660,13 @@ const Main = () => {
                     </div>
                     <div className="city_slider_item">
                         <a href="#" className="city_slider_item_content">
-                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image">
+                            <img src="img/slider-img2.png" className="city_slider_img" alt="Slider Image" />
                                 <h3 className="city_slider_title">
                                     Москва
                                 </h3>
                         </a>
                     </div>
-                    <!-- <div class="slider_arrow arrow-right arrow-city revealator-slideright revealator-once"></div> -->
+                    {/*<div class="slider_arrow arrow-right arrow-city revealator-slideright revealator-once"></div>*/}
                 </div>
             </div>
             <div className="row">
@@ -678,7 +678,7 @@ const Main = () => {
             </div>
         </div>
     </section>
-    <!-- Седьмая секция -->
+    {/*Седьмая секция*/}
     <section className="why">
         <div className="container">
             <div className="row">
@@ -692,7 +692,7 @@ const Main = () => {
                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <ul className="why_list">
                         <li className="why_list_item">
-                            <img src="img/hospital.svg" className="why_list_img" alt="Peaope and dog">
+                            <img src="img/hospital.svg" className="why_list_img" alt="Peaope and dog" />
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Только проверенные клиники в вашем городе
                                 </h3>
@@ -702,7 +702,7 @@ const Main = () => {
                                 </p>
                         </li>
                         <li className="why_list_item why_list-one-title-line why-w-992">
-                            <img src="img/money.svg" className="why_list_img why_list_img-money" alt="Pig">
+                            <img src="img/money.svg" className="why_list_img why_list_img-money" alt="Pig" />
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Лучшие цены
                                 </h3>
@@ -712,7 +712,7 @@ const Main = () => {
                                 </p>
                         </li>
                         <li className="why_list_item">
-                            <img src="img/Objects.svg" className="why_list_img" alt="Doctor">
+                            <img src="img/Objects.svg" className="why_list_img" alt="Doctor" />
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Возможность получать консультации онлайн
                                 </h3>
@@ -722,7 +722,7 @@ const Main = () => {
                                 </p>
                         </li>
                         <li className="why_list_item why-w-992">
-                            <img src="img/Group.svg" className="why_list_img" alt="Doctor">
+                            <img src="img/Group.svg" className="why_list_img" alt="Doctor" />
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Запись к специалисту в несколько кликов
                                 </h3>
@@ -736,7 +736,7 @@ const Main = () => {
             </div>
         </div>
     </section>
-    <!-- Восььмая секция -->
+    {/*Восьмая секция*/}
     <section className="reg">
         <div className="container">
             <div className="row">
@@ -746,30 +746,30 @@ const Main = () => {
                             Зарегистрируйтесь!
                         </h2>
                         <p className="section-desc reg_desc revealator-slideup revealator-once">
-                            чтобы начать пользоваться всеми <br>преимуществами Clinic
+                            чтобы начать пользоваться всеми <br />преимуществами Clinic
                         </p>
                         <form method="post" className="reg_form revealator-zoomin revealator-once">
-                            <input type="text" name="name" placeholder="Имя*" className="form-input">
-                                <input type="text" name="fam" placeholder="Фамилия*" className="form-input">
-                                    <input type="email" name="mail" placeholder="Email*" className="form-input">
+                            <input type="text" name="name" placeholder="Имя*" className="form-input" />
+                                <input type="text" name="fam" placeholder="Фамилия*" className="form-input" />
+                                    <input type="email" name="mail" placeholder="Email*" className="form-input" />
                                         <input type="tel" name="tel" placeholder="+7(___) ___ __ __*"
-                                               autoComplete="off" className="form-input phone-form">
+                                               autoComplete="off" className="form-input phone-form" />
                                             <input type="submit" name="submit"
                                                    className="button-submit reg_button revealator-zoomin revealator-once revealator"
-                                                   value="Зарегистрироваться">
+                                                   value="Зарегистрироваться" />
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Последняя секция -->
+    {/*Последняя секция*/}
     <footer className="footer">
         <div className="container">
             <div className="row">
                 <div className="col-xl-5 col-lg-4 col-md-12 col-sm-12 col-12">
                     <a href="https://clinicapp.ru" target="_blank"><img src="img/cliniclogowhite.svg"
-                                                                        className="footer_logo" alt="Clinic"></a>
+                                                                        className="footer_logo" alt="Clinic" /></a>
                     <p className="footer_contact-str">
                         Пишите нам: <span>info@clinic.ru</span>
                     </p>
@@ -864,7 +864,7 @@ const Main = () => {
                     </p>
                     <a href="https://jscorp.ru" target="_blank"><img src="img/jslogowhite.svg"
                                                                      className="footer_js-logo"
-                                                                     alt="JS corporation"></a>
+                                                                     alt="JS corporation" /></a>
                 </div>
 
                 <div className="col-xl-7 col-lg-7 col-md-7 d-md-none d-lg-block col-sm-none col-none">
@@ -872,7 +872,7 @@ const Main = () => {
                         Политика конфиденциальности | Условия использования
                     </a>
                     <p className="footer_policy-desc">
-                        Информация, представленная на сайте, не может быть использована для <br>постановки диагноза,
+                        Информация, представленная на сайте, не может быть использована для <br />постановки диагноза,
                         назначения лечения и не заменяет приём врача.
                     </p>
                 </div>
@@ -880,18 +880,17 @@ const Main = () => {
         </div>
     </footer>
 
-    // <!-- Скрипты JavaScript -->
-    // <script src="js/vendor/jquery.js"></script>
-    // <script src="js/vendor/owl.carousel.min.js"></script>
-    // <script src="js/vendor/chosen.jquery.min.js"></script>
-    // <script src="js/vendor/fm.revealator.jquery.min.js"></script>
-    // <script src="js/vendor/slick.js"></script>
-    // <script src="js/vendor/pushy.js"></script>
-    // <script src="js/vendor/jquery.maskedinput.min.js"></script>
-    // <script src="js/main.js"></script>
+    {/*// Скрипты JavaScript*/}
+    {/*// <script src="js/vendor/jquery.js"></script>*/}
+    {/*// <script src="js/vendor/owl.carousel.min.js"></script>*/}
+    {/*// <script src="js/vendor/chosen.jquery.min.js"></script>*/}
+    {/*// <script src="js/vendor/fm.revealator.jquery.min.js"></script>*/}
+    {/*// <script src="js/vendor/slick.js"></script>*/}
+    {/*// <script src="js/vendor/pushy.js"></script>*/}
+    {/*// <script src="js/vendor/jquery.maskedinput.min.js"></script>*/}
+    {/*// <script src="js/main.js"></script>*/}
     </body>
-    </html>
-)
+    </html>)
 }
 
 export default Main;
