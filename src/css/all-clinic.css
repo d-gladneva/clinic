@@ -1,0 +1,158 @@
+.main_button-list {
+  width: 402px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 211px; }
+  .main_button-list li {
+    -moz-transition: all 0.25s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease; }
+
+.advantage_list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 86px;
+  margin-top: 70px; }
+
+.advantage_item {
+  width: 365px; }
+
+.advantage_item_image {
+  float: left;
+  margin-right: 14px; }
+
+.advantage_item_title {
+  font-family: 'GothamPro';
+  font-weight: 600;
+  font-size: 16px;
+  color: #014755; }
+
+.advantage_item_desc {
+  font-family: 'GothamPro';
+  font-weight: 300;
+  font-size: 15px;
+  color: #14171c;
+  margin-top: 0px;
+  line-height: 18px; }
+
+.best-clinic {
+  margin-top: 62px; }
+
+.best-clinic_desc {
+  text-align: center; }
+
+.best-clinic_list {
+  margin: auto;
+  margin-top: 63px; }
+
+.best-clinic_list_item {
+  width: 175px;
+  margin: auto !important; }
+
+.best-clinic_list_item_box {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  margin: auto !important; }
+
+.best-clinic_list_item_img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer; }
+  .best-clinic_list_item_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0);
+    -moz-transition: all 0.25s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease; }
+
+.best-clinic_list_item_box:hover .best-clinic_list_item_img img {
+  border: 5px solid #008b70; }
+
+.best-clinic_list_item_box:hover .best-clinic_list_title {
+  color: #008b70; }
+
+.best-clinic_list_title {
+  -moz-transition: all 0.25s ease;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease;
+  font-family: 'GothamPro';
+  font-weight: 600;
+  color: #14171c;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 25px; }
+
+.best-clinic_button {
+  margin-top: 58px; }
+
+.best-service {
+  margin-top: 186px; }
+
+.best-service_img {
+  float: right;
+  display: block;
+  width: 542px; }
+
+.best-service_content {
+  float: left;
+  width: 51%;
+  margin-top: 80px; }
+
+.best-service_title {
+  text-align: left; }
+
+.best-service_button {
+  float: left;
+  margin-top: 13px; }
+
+.check {
+  margin-top: 115px; }
+
+.check_img {
+  float: left;
+  display: block;
+  width: 530px; }
+
+.check_content {
+  float: right;
+  width: 51%;
+  margin-top: 130px; }
+
+.check_title {
+  text-align: left; }
+
+.check_button {
+  float: left;
+  margin-top: 13px; }
+
+.all-clinic-article {
+  margin-top: 30px; }

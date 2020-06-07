@@ -1,0 +1,423 @@
+@media screen and (max-width: 1280px) {
+  .logo {
+    margin-left: 20px; } }
+
+@media screen and (max-width: 1220px) {
+  .logo {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .nav-menu .nav-menu_item {
+    margin-right: 10px; } }
+
+@media screen and (max-width: 1200px) {
+  .price_phone {
+    float: none;
+    margin-right: 0px;
+    margin-top: 20px; }
+  .button-price {
+    margin: 0px;
+    margin-top: 10px;
+    width: 261px; }
+  .comment_list_item {
+    width: 300px; }
+  .footer_nav-list {
+    margin-left: 0px; }
+  .footer_nav-list-clinic {
+    margin-left: 50px; }
+  .footer_nav-list_item {
+    font-size: 1.06em !important; }
+  .why_list_item {
+    width: 210px; }
+  .price_content {
+    width: 49%;
+    margin-top: 50px; }
+  .access_content {
+    width: 50%;
+    margin-top: 160px; } }
+
+@media screen and (max-width: 1120px) {
+  .logo {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .nav-menu .nav-menu_item {
+    margin-right: 10px; }
+  .log-in-box {
+    margin-right: 10px; }
+  .log-in i {
+    font-size: 30px;
+    margin-top: 12px; }
+  .log-in span {
+    margin-right: 10px; }
+  .nav-menu .nav-menu_item i {
+    margin-right: 5px; }
+  .sub-menu {
+    width: 227px; }
+  .sub-menu-clinic {
+    width: 153px; }
+  .sub-menu-support {
+    width: 149px; } }
+
+@media screen and (max-width: 1045px) {
+  .logo {
+    margin-top: 15px;
+    margin-bottom: 20px; }
+    .logo img {
+      width: 160px; }
+  .nav-menu .nav-menu_item a {
+    padding-top: 30px; }
+  .log-in-box {
+    margin-top: 16px; }
+  .sub-menu {
+    top: 83px; }
+  .sub-menu li a {
+    padding-left: 10px !important; } }
+
+@media screen and (max-width: 1025px) {
+  .comment_list_item {
+    width: 290px; }
+  .comment_list_item_title_img {
+    margin-right: 10px !important; } }
+
+@media screen and (max-width: 992px) {
+  br {
+    display: none; }
+  .comment_list_item {
+    width: 47%; }
+  .comment_list_item_title_img {
+    margin-right: 25px !important; }
+  .d-n-992 {
+    display: none; }
+  .list_item_content a {
+    font-size: 14px; }
+  .section-title {
+    text-align: center; }
+  .section-desc {
+    text-align: center; }
+  .price_img {
+    float: none;
+    margin: auto; }
+  .price_content {
+    float: none;
+    width: 100%;
+    margin-top: 25px; }
+  .price_title {
+    text-align: center; }
+  .price_form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px; }
+  .price_phone {
+    float: left;
+    margin-right: 30px; }
+  .button-price {
+    margin-top: 20px; }
+  .access {
+    margin-top: 140px; }
+  .access_img {
+    float: none;
+    margin: auto; }
+  .access_content {
+    float: none;
+    width: 100%;
+    margin-top: 30px; }
+  .access_title {
+    text-align: center; }
+  .access_button-list {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .access_button-list li {
+      margin-right: 70px; }
+  .city_desc {
+    width: 90%;
+    margin: auto; }
+  .why_list {
+    display: block;
+    width: 100%; }
+  .why_list_item {
+    width: 47%;
+    float: left; }
+  .why_list_img {
+    margin: auto;
+    display: block; }
+  .why_list_title {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 19px; }
+  .why_list_desc {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px; }
+  .why_list-one-title-line .why_list_desc {
+    margin-top: 29px; }
+  .why-w-992 {
+    float: right; }
+  .reg_bg {
+    background: none;
+    background: url(../img/7.jpg) no-repeat left bottom/27%, url(../img/8.jpg) no-repeat right bottom/27%; }
+  .reg_form .form-input {
+    width: 87%;
+    margin: auto;
+    display: block;
+    margin-bottom: 19px; }
+  .footer_logo {
+    margin: auto;
+    display: block;
+    margin-top: 53px; }
+  .footer_contact-str {
+    text-align: center; }
+  .footer_contact-list {
+    width: 200px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .footer_contact_item {
+    margin-right: 0px;
+    float: none; }
+  .footer_date {
+    text-align: center; }
+  .footer_sponsor {
+    text-align: center; }
+  .footer_js-logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 53px; }
+  .main:after {
+    content: '';
+    height: 113px;
+    background: url(../img/duga.png) no-repeat center top; } }
+
+@media screen and (max-width: 992px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .menu_burger {
+    display: block; }
+  .nav-menu-box, .log-in-box {
+    display: none; }
+  .logo img {
+    width: 200px; } }
+
+@media screen and (max-width: 767px) {
+  br {
+    display: none; }
+  .main:after {
+    content: '';
+    height: 112px;
+    background: url(../img/duga.png) no-repeat center top; }
+  .main_form {
+    width: 100%;
+    margin-top: 10px !important; }
+  .select-box {
+    display: block;
+    width: 260px;
+    margin: auto; }
+  .chosen-container, .chosen-container-single {
+    margin-bottom: 10px; }
+  .chosen-drop {
+    background: rgba(255, 255, 255, 0.95) !important; }
+  .chosen-results {
+    max-height: 150px !important; }
+  .chosen-container-single .chosen-search input {
+    height: 40px !important;
+    font-size: 15px !important; }
+  .chosen-container .chosen-results li {
+    font-size: 15px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important; }
+  .comment_list_item {
+    width: 48.5%; }
+  .comment_list_item_title_img {
+    margin-right: 10px !important; }
+  .list_item_title {
+    height: 70px; }
+    .list_item_title .name-people {
+      font-size: 1em;
+      padding-top: 0px; }
+    .list_item_title .position-people {
+      font-size: 0.85em; }
+    .list_item_title .name-clinic {
+      font-size: 1em; }
+  .section-title {
+    font-size: 2.150em; }
+  .why_list {
+    display: block;
+    width: 100%; }
+  .why_list_item {
+    width: 400px;
+    float: none;
+    margin: auto;
+    margin-top: 30px; }
+  .why_list_img {
+    margin: auto;
+    display: block; }
+  .why_list_title {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 19px; }
+  .why_list_desc {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px; }
+  .why_list-one-title-line .why_list_desc {
+    margin-top: 10px; }
+  .why-w-992 {
+    float: none; }
+  .col-none {
+    display: none; }
+  .main_form {
+    width: 100%;
+    margin: auto; }
+  .main_form_list {
+    float: none;
+    width: 320px;
+    margin: auto;
+    display: block;
+    margin-top: 10px; }
+  .price_form {
+    width: 100%;
+    display: block; }
+  .price_phone {
+    float: none;
+    display: block;
+    margin: auto;
+    width: 55%; }
+  .button-price {
+    display: block;
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px; } }
+
+@media screen and (max-width: 628px) {
+  .owl-nav .owl-prev:before,
+  .owl-nav .owl-prev:before {
+    top: -170px;
+    left: 0px; }
+  .owl-nav .owl-next:before,
+  .owl-nav .owl-next:before {
+    top: -170px;
+    right: 0px; } }
+
+@media screen and (max-width: 576px) {
+  .price_img {
+    width: 300px; }
+  .access_img {
+    width: 220px; } }
+
+@media screen and (max-width: 545px) {
+  .comment_list {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px; }
+  .comment_list_item {
+    width: 100%; }
+  .comment_list_item_title_img {
+    margin-right: 10px !important; }
+  .list_item_title {
+    height: 70px; }
+    .list_item_title .name-people {
+      font-size: 1.067em;
+      padding-top: 8px; }
+    .list_item_title .position-people {
+      font-size: 0.933em; }
+    .list_item_title .name-clinic {
+      font-size: 1.067em; }
+  .d-n-w-545 {
+    display: none !important; }
+  .section-title, .main_title {
+    font-size: 2em; } }
+
+@media screen and (max-width: 480px) {
+  .access_button-list {
+    margin-top: 42px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .access_button-list li {
+      float: none;
+      margin-right: 0px; } }
+
+@media screen and (max-width: 455px) {
+  .reg_bg {
+    background: none; }
+  .why_list_item {
+    width: 100%; }
+  .why_list_item {
+    width: 100%; } }
+
+@media screen and (max-width: 425px) {
+  .reg_form {
+    width: 100%; }
+    .reg_form .form-input {
+      width: 98%;
+      margin: auto;
+      display: block;
+      margin-bottom: 19px; }
+    .reg_form .reg_button {
+      width: 80%;
+      display: block;
+      margin: auto;
+      padding: 0; }
+  .price_form {
+    width: 100%; }
+    .price_form .price_phone {
+      width: 98%;
+      display: block; }
+    .price_form .button-price {
+      width: 95%;
+      display: block;
+      padding: 0; }
+  .main_form {
+    width: 100%; }
+    .main_form .main_form_list {
+      width: 98%; }
+  .button-submit {
+    padding: 0;
+    width: 95%; } }
+
+@media screen and (max-width: 405px) {
+  .access_button-list {
+    margin-top: 42px;
+    width: 100%;
+    display: block; }
+    .access_button-list li {
+      float: none;
+      margin-right: 0px;
+      margin-top: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+@media screen and (max-width: 400px) {
+  .menu_burger {
+    display: block;
+    right: 20px; } }

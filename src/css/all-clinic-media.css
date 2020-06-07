@@ -1,0 +1,100 @@
+@media screen and (max-width: 1200px) {
+  .advantage_item {
+    width: 300px; }
+  .advantage_item_desc {
+    margin-top: -10px;
+    line-height: 16px; }
+  .best-service_content {
+    float: left;
+    width: 41%;
+    margin-top: 20px; }
+  .check_content {
+    float: right;
+    width: 42%;
+    margin-top: 90px; } }
+
+@media screen and (max-width: 992px) {
+  .advantage_item {
+    width: 200px; }
+  .advantage_item_image {
+    float: none;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto; }
+  .advantage_item_title {
+    text-align: center;
+    margin-top: 15px; }
+  .advantage_item_desc {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px; }
+  br {
+    display: none; }
+  .section-title {
+    text-align: center; }
+  .section-desc {
+    text-align: center;
+    font-size: 1.40em; }
+  .best-service_img {
+    float: none;
+    margin: auto; }
+  .best-service_content {
+    float: none;
+    width: 100%;
+    margin-top: 40px; }
+  .best-service_title {
+    text-align: center; }
+  .best-service_button {
+    float: none; }
+  .check_img {
+    float: none;
+    margin: auto; }
+  .check_content {
+    float: none;
+    width: 100%;
+    margin-top: 10px; }
+  .check_title {
+    text-align: center; }
+  .check_button {
+    float: none; } }
+
+@media screen and (max-width: 768px) {
+  .advantage_list {
+    display: block;
+    margin-bottom: 0px; }
+  .advantage_list-w768 {
+    margin-top: 20px !important; }
+  .advantage_item {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px; }
+  .advantage_item-w768 {
+    float: none;
+    margin: auto;
+    margin-top: -10px; } }
+
+@media screen and (max-width: 576px) {
+  .check_img, .best-service_img {
+    width: 300px; } }
+
+@media screen and (max-width: 516px) {
+  .advantage_item {
+    width: 250px;
+    float: none;
+    margin: auto;
+    margin-bottom: 20px; }
+  .advantage_item_image {
+    margin-top: 30px; } }
+
+@media screen and (max-width: 442px) {
+  .main_button-list {
+    width: 185px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 201px; }
+    .main_button-list li {
+      float: none;
+      margin: 0px;
+      margin-bottom: 20px; } }

@@ -1,0 +1,53 @@
+@media screen and (max-width: 1200px) {
+  .more_content {
+    width: 40%; }
+  .subscription_content {
+    width: 43%; } }
+
+@media screen and (max-width: 992px) {
+  .price-price_img {
+    float: none;
+    margin: auto; }
+  .price-price_content {
+    float: none;
+    width: 100%;
+    margin-top: 50px; }
+  .price-price_title {
+    text-align: center; }
+  .section-desc {
+    text-align: center; }
+  .more_img {
+    float: none;
+    margin: auto; }
+  .more_content {
+    float: none;
+    width: 100%;
+    margin-top: 50px; }
+  .more_title {
+    text-align: center; }
+  .subscription_img {
+    float: none;
+    margin: auto; }
+  .subscription_content {
+    float: none;
+    width: 100%;
+    margin-top: 50px; }
+  .subscription_title {
+    text-align: center; }
+  .price-advantage_list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px; }
+  .price-advantage_item {
+    width: 30%;
+    min-width: 155px;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 576px) {
+  .price-price_img, .more_img, .subscription_img {
+    width: 300px; } }

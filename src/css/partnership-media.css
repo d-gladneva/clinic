@@ -1,0 +1,55 @@
+@media screen and (max-width: 992px) {
+  .consultations_img {
+    float: none;
+    margin: auto; }
+  .consultations_content {
+    float: none;
+    width: 100%;
+    margin-top: 50px; }
+  .consultations_title {
+    text-align: center; }
+  .section-desc {
+    text-align: center; }
+  .application_img {
+    float: none;
+    margin: auto; }
+  .application_content {
+    float: none;
+    width: 100%;
+    margin-top: 50px; }
+  .application_title {
+    text-align: center; }
+  .save_img {
+    float: none;
+    margin: auto; }
+  .save_content {
+    float: none;
+    width: 100%;
+    margin-top: 50px; }
+  .save_title {
+    text-align: center; }
+  .cost_img {
+    float: none;
+    margin: auto; }
+  .cost_content {
+    float: none;
+    width: 100%;
+    margin-top: 50px; }
+  .cost_title {
+    text-align: center; } }
+
+@media screen and (max-width: 576px) {
+  .consultations_img, .application_img, .save_img, .cost_img {
+    width: 300px; } }
+
+@media screen and (max-width: 442px) {
+  .main_button-list {
+    width: 185px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 201px; }
+    .main_button-list li {
+      float: none;
+      margin: 0px;
+      margin-bottom: 20px; } }

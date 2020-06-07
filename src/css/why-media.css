@@ -1,0 +1,88 @@
+@media screen and (max-width: 1200px) {
+  .turn_content {
+    width: 46%;
+    margin-top: 40px; }
+  .turn_img {
+    width: 500px; }
+  .doctor {
+    margin-top: 19px; }
+  .doctor_content {
+    width: 45%;
+    margin-top: 130px; }
+  .why-price_content {
+    width: 41%;
+    margin-top: 120px; } }
+
+@media screen and (max-width: 992px) {
+  .section-desc {
+    text-align: center; }
+  .clinic_content {
+    width: 100%;
+    margin: auto;
+    float: none; }
+  .clinic_img {
+    float: none;
+    margin: auto; }
+  .clinic_content {
+    float: none;
+    width: 100%;
+    margin-top: 40px; }
+  .clinic_title {
+    text-align: center; }
+  .turn_content {
+    width: 100%;
+    margin: auto;
+    float: none; }
+  .turn_img {
+    float: none;
+    margin: auto; }
+  .turn_content {
+    float: none;
+    width: 100%;
+    margin-top: 20px; }
+  .turn_title {
+    text-align: center; }
+  .doctor_content {
+    width: 100%;
+    margin: auto;
+    float: none; }
+  .doctor_img {
+    float: none;
+    margin: auto; }
+  .doctor_content {
+    float: none;
+    width: 100%;
+    margin-top: 20px; }
+  .doctor_title {
+    text-align: center; }
+  .why-price_content {
+    width: 100%;
+    margin: auto;
+    float: none; }
+  .why-price_img {
+    float: none;
+    margin: auto; }
+  .why-price_content {
+    float: none;
+    width: 100%;
+    margin-top: 20px; }
+  .why-price_title {
+    text-align: center; }
+  br {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  .clinic_img, .turn_img, .doctor_img, .why-price_img {
+    width: 300px; } }
+
+@media screen and (max-width: 442px) {
+  .main_button-list {
+    width: 185px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 201px; }
+    .main_button-list li {
+      float: none;
+      margin: 0px;
+      margin-bottom: 20px; } }

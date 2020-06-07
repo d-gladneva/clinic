@@ -1,0 +1,90 @@
+@media screen and (max-width: 1200px) {
+  .connect-form_content {
+    width: 42%;
+    margin-top: 100px; }
+  .connect-download_content {
+    width: 47%;
+    margin-top: 150px; }
+  .payment_img {
+    width: 500px; }
+  .payment_content {
+    width: 45%;
+    margin-top: 80px; }
+  .payment_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 11px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
+@media screen and (max-width: 992px) {
+  .section-title {
+    text-align: center; }
+  .section-desc {
+    text-align: center;
+    font-size: 1.40em; }
+  .connect-form_img {
+    float: none;
+    margin: auto; }
+  .connect-form_content {
+    float: none;
+    width: 100%;
+    margin-top: 25px; }
+  .connect-form_title {
+    text-align: center; }
+  .connect-form_button {
+    float: none; }
+  br {
+    display: none; }
+  .connect-download {
+    margin-top: 140px; }
+  .connect-download_img {
+    float: none;
+    margin: auto; }
+  .connect-download_content {
+    float: none;
+    width: 100%;
+    margin-top: 30px; }
+  .connect-download_title {
+    text-align: center; }
+  .connect-download_store {
+    float: none;
+    margin: auto; }
+  .payment {
+    margin-top: 140px; }
+  .payment_img {
+    float: none;
+    margin: auto; }
+  .payment_content {
+    float: none;
+    width: 100%;
+    margin-top: -5px; }
+  .payment_title {
+    text-align: center; } }
+
+@media screen and (max-width: 576px) {
+  .connect-form_img, .connect-download_img, .payment_img {
+    width: 300px; } }
+
+@media screen and (max-width: 442px) {
+  .main_button-list {
+    width: 185px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 201px; }
+    .main_button-list li {
+      float: none;
+      margin: 0px;
+      margin-bottom: 20px; } }

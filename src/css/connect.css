@@ -1,0 +1,90 @@
+.main_button-list {
+  width: 402px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 211px; }
+  .main_button-list li {
+    -moz-transition: all 0.25s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease; }
+
+.connect-form_img {
+  float: left;
+  display: block;
+  width: 482px; }
+
+.connect-form_content {
+  float: right;
+  width: 51%;
+  margin-top: 175px; }
+
+.connect-form_title {
+  text-align: left; }
+
+.connect-form_button {
+  float: left;
+  margin-top: 14px; }
+
+.connect-download {
+  margin-top: 11px; }
+
+.connect-download_img {
+  float: right;
+  display: block;
+  width: 329px; }
+
+.connect-download_content {
+  float: left;
+  width: 51%;
+  margin-top: 180px; }
+
+.connect-download_title {
+  text-align: left; }
+
+.connect-download_store {
+  float: left;
+  margin: 0;
+  margin-top: 12px; }
+
+.payment {
+  margin-top: 9px; }
+
+.payment_img {
+  float: left;
+  display: block;
+  width: 540px; }
+
+.payment_content {
+  float: right;
+  width: 51%;
+  margin-top: 167px; }
+
+.payment_title {
+  text-align: left; }
+
+.payment_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 11px; }
+
+.payment_list_item img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: gray;
+          filter: gray;
+  /* IE 6-9 */
+  display: block; }

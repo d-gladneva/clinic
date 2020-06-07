@@ -1,0 +1,77 @@
+.main_button-list {
+  width: 402px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 211px; }
+  .main_button-list li {
+    -moz-transition: all 0.25s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease; }
+
+.consultations_img {
+  float: left;
+  display: block;
+  width: 390px; }
+
+.consultations_content {
+  float: right;
+  width: 52%;
+  margin-top: 212px; }
+
+.consultations_title {
+  text-align: left; }
+
+.application {
+  margin-top: 195px; }
+
+.application_img {
+  float: right;
+  display: block;
+  width: 514px; }
+
+.application_content {
+  float: left;
+  width: 52%;
+  margin-top: 205px; }
+
+.application_title {
+  text-align: left; }
+
+.save {
+  margin-top: 102px; }
+
+.save_img {
+  float: left;
+  display: block;
+  width: 520px; }
+
+.save_content {
+  float: right;
+  width: 52%;
+  margin-top: 150px; }
+
+.save_title {
+  text-align: left; }
+
+.cost {
+  margin-top: 150px; }
+
+.cost_img {
+  float: right;
+  display: block;
+  width: 530px; }
+
+.cost_content {
+  float: left;
+  width: 52%;
+  margin-top: 139px; }
+
+.cost_title {
+  text-align: left; }

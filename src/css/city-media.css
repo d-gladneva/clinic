@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px) {
+  .city-content-card {
+    width: 850px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 40px; }
+  .city-content-card_info {
+    width: 415px;
+    float: none;
+    margin: auto; }
+  .city-content-card_map-box {
+    width: 99%;
+    height: 400px;
+    float: none;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 920px) {
+  .city-content-card {
+    width: 600px; }
+  .city-content-card_info_title {
+    text-align: center; } }
+
+@media screen and (max-width: 650px) {
+  .city-content-card {
+    width: 400px;
+    padding: 10px;
+    padding-top: 40px; }
+  .main_button-list-city-card {
+    width: 185px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 0px; }
+    .main_button-list-city-card li {
+      float: none;
+      margin: 0px;
+      margin-bottom: 20px; }
+  .city-content-card_info {
+    width: 99%; }
+    .city-content-card_info p {
+      font-size: 20px; } }
+
+@media screen and (max-width: 442px) {
+  .city-content-card {
+    width: 100%;
+    padding: 10px;
+    padding-top: 40px; }
+  .main_button-list-city-card {
+    width: 185px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 0px !important; }
+    .main_button-list-city-card li {
+      float: none;
+      margin: 0px;
+      margin-bottom: 20px; }
+  .city-content-card_info {
+    width: 99%; }
+    .city-content-card_info p {
+      font-size: 16px; } }
+
+@media screen and (max-width: 370px) {
+  .city-content-card_map-box {
+    width: 100%;
+    height: 250px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 530px) {
+  .city-list_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+
+@media screen and (max-width: 410px) {
+  .city-list_desc {
+    width: 100%; }
+  br {
+    display: none; } }
+
+@media screen and (max-width: 442px) {
+  .main_button-list {
+    width: 185px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 201px; }
+    .main_button-list li {
+      float: none;
+      margin: 0px;
+      margin-bottom: 20px; } }

@@ -1,0 +1,80 @@
+.main_button-list {
+  width: 402px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 211px; }
+  .main_button-list li {
+    -moz-transition: all 0.25s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease; }
+
+.clinic_img {
+  float: left;
+  display: block;
+  width: 415px; }
+
+.clinic_content {
+  float: right;
+  width: 52%;
+  margin-top: 60px; }
+
+.clinic_title {
+  text-align: left; }
+
+.turn {
+  margin-top: 97px; }
+
+.turn_img {
+  float: right;
+  display: block;
+  width: 542px; }
+
+.turn_content {
+  float: left;
+  width: 51%;
+  margin-top: 102px; }
+
+.turn_title {
+  text-align: left; }
+
+.doctor {
+  margin-top: -21px; }
+
+.doctor_img {
+  float: left;
+  display: block;
+  width: 511px; }
+
+.doctor_content {
+  float: right;
+  width: 51%;
+  margin-top: 235px; }
+
+.doctor_title {
+  text-align: left; }
+
+.why-price {
+  margin-top: 15px; }
+
+.why-price_img {
+  float: right;
+  display: block;
+  width: 542px; }
+
+.why-price_content {
+  float: left;
+  width: 51%;
+  margin-top: 178px; }
+
+.why-price_title {
+  text-align: left; }
+
+.why-article {
+  margin-top: -40px; }

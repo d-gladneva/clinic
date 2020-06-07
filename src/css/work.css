@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.health {
+  margin-top: 11px; }
+
+.health_img {
+  float: left;
+  display: block;
+  width: 475px; }
+
+.health_content {
+  float: right;
+  width: 52%;
+  margin-top: 60px; }
+
+.health_title {
+  text-align: left; }
+
+.wide-choice {
+  margin-top: 114px; }
+
+.wide-choice_img {
+  float: right;
+  display: block;
+  width: 526px; }
+
+.wide-choice_content {
+  float: left;
+  width: 51.7%;
+  margin-top: 120px; }
+
+.wide-choice_title {
+  text-align: left; }
+
+.consultation {
+  margin-top: -2px; }
+
+.consultation_img {
+  float: left;
+  display: block;
+  width: 492px; }
+
+.consultation_content {
+  float: right;
+  width: 50%;
+  margin-top: 160px; }
+
+.consultation_title {
+  text-align: left; }
+
+.сall {
+  margin-top: 37px; }
+
+.сall_img {
+  float: right;
+  display: block;
+  width: 552px; }
+
+.сall_content {
+  float: left;
+  width: 50%;
+  margin-top: 110px; }
+
+.сall_title {
+  text-align: left; }
+
+.work-article {
+  margin-top: -23px; }

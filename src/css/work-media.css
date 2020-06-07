@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@media screen and (max-width: 1200px) {
+  .health_content {
+    width: 47%;
+    margin-top: 20px; }
+  .wide-choice_content {
+    width: 42%;
+    margin-top: 60px; }
+  .consultation_content {
+    width: 46.5%;
+    margin-top: 80px; }
+  .сall_content {
+    width: 40%;
+    margin-top: 60px; } }
+
+@media screen and (max-width: 992px) {
+  .section-title {
+    text-align: center; }
+  .section-desc {
+    text-align: center;
+    font-size: 1.40em; }
+  .health_img {
+    float: none;
+    margin: auto; }
+  .health_content {
+    float: none;
+    width: 100%;
+    margin-top: 25px; }
+  .health_title {
+    text-align: center; }
+  br {
+    display: none; }
+  .wide-choice_img {
+    float: none;
+    margin: auto; }
+  .wide-choice_content {
+    float: none;
+    width: 100%;
+    margin-top: 5px; }
+  .wide-choice_title {
+    text-align: center; }
+  .consultation {
+    margin-top: 100px; }
+  .consultation_img {
+    float: none;
+    margin: auto; }
+  .consultation_content {
+    float: none;
+    width: 100%;
+    margin-top: 20px; }
+  .consultation_title {
+    text-align: center; }
+  .сall {
+    margin-top: 90px; }
+  .сall_img {
+    float: none;
+    margin: auto; }
+  .сall_content {
+    float: none;
+    width: 100%;
+    margin-top: 15px; }
+  .сall_title {
+    text-align: center; }
+  .work-article {
+    margin-top: 0px; } }
+
+@media screen and (max-width: 576px) {
+  .health_img, .wide-choice_img, .consultation_img, .сall_img {
+    width: 300px; } }

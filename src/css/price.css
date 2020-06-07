@@ -1,0 +1,77 @@
+.price-price_img {
+  float: left;
+  display: block;
+  width: 465px; }
+
+.price-price_content {
+  float: right;
+  width: 50%;
+  margin-top: 32px; }
+
+.price-price_title {
+  text-align: left; }
+
+.price-advantage {
+  margin-top: 159px; }
+
+.price-advantage_title {
+  text-align: center; }
+
+.price-advantage_desc {
+  text-align: center; }
+
+.price-advantage_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 65px; }
+
+.price-advantage_item {
+  width: 155px; }
+
+.price-advantage_item_img {
+  display: block;
+  margin: auto; }
+
+.price-advantage_item_title {
+  font-family: 'GothamPro';
+  font-weight: 600;
+  color: #14171c;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 33px; }
+
+.more {
+  margin-top: 145px; }
+
+.more_img {
+  float: left;
+  display: block;
+  width: 545px; }
+
+.more_content {
+  float: right;
+  width: 50%;
+  margin-top: 95px; }
+
+.more_title {
+  text-align: left; }
+
+.subscription {
+  margin-top: 135px; }
+
+.subscription_img {
+  float: right;
+  display: block;
+  width: 525px; }
+
+.subscription_content {
+  float: left;
+  width: 50%;
+  margin-top: 75px; }
+
+.subscription_title {
+  text-align: left; }
