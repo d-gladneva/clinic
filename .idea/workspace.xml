@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e178810b-f9ee-4b20-ba51-0dcded0dfb2f" name="Default Changelist" comment="" />
+    <list default="true" id="e178810b-f9ee-4b20-ba51-0dcded0dfb2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -207,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591016873053</updated>
-      <workItem from="1591016874452" duration="28268000" />
+      <workItem from="1591016874452" duration="29296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28268000" />
+    <option name="totallyTimeSpent" value="29296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -223,8 +225,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49523053" visible="true" weight="0.8650089" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5047695" side_tool="true" visible="true" weight="0.8650089" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49523053" visible="true" weight="0.94671404" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5047695" side_tool="true" visible="true" weight="0.94671404" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
