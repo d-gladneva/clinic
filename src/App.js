@@ -1,20 +1,19 @@
 import React from 'react';
-import './App.css';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import HomePage from './components/pages/HomePage';
 
-import Main from './components/Main';
+import './css/vendor/bootstrap.min.css';
+import './css/vendor/chosen.css';
+import './css/vendor/fm.revealator.jquery.min.css';
+import './css/vendor/font-awesome.css';
 
-function App() {
+export default function App() {
   return (
       <Router>
         <Switch>
-          <Route>
-            <Main />
-          </Route>
+          <Route path='/' exact component={HomePage} />
         </Switch>
       </Router>
   );
 }
-
-export default App;

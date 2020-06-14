@@ -30,46 +30,37 @@ import '../css/vendor/slick.css'
 // import '../css/vendor/slick-theme.css'
 
 
-import cliniclogo1 from "../img/cliniclogo1.png"
-import sliderImg1 from "../img/sliderImg1.png"
-import main from "../img/main.svg"
-import sliderImg2 from "../img/sliderImg2.png"
-import IphoneX from "../img/IphoneX.png"
-import sliderImg3 from "../img/sliderImg3.png"
-import sliderImg4 from "../img/sliderImg4.png"
-import hospital from "../img/hospital.svg"
-import money from "../img/money.svg"
-import Objects from "../img/Objects.svg"
-import Group from "../img/Group.svg"
-import cliniclogowhite from "../img/cliniclogowhite.svg"
-import jslogowhite from "../img/jslogowhite.svg"
+import cliniclogo1 from "../../public/static/img/cliniclogo1.png"
+import sliderImg1 from "../../public/static/img/sliderImg1.png"
+import main from "../../public/static/img/main.svg"
+import sliderImg2 from "../../public/static/img/sliderImg2.png"
+import IphoneX from "../../public/static/img/IphoneX.png"
+import sliderImg3 from "../../public/static/img/sliderImg3.png"
+import sliderImg4 from "../../public/static/img/sliderImg4.png"
+import hospital from "../../public/static/img/hospital.svg"
+import money from "../../public/static/img/money.svg"
+import Objects from "../../public/static/img/Objects.svg"
+import Group from "../../public/static/img/Group.svg"
+import cliniclogowhite from "../../public/static/img/cliniclogowhite.svg"
+import jslogowhite from "../../public/static/img/jslogowhite.svg"
 
 
 
 const Main = () => {
 
-    return (<html lang="ru">
+    return (
+      <html lang="ru">
     <head>
-        <meta charSet="UTF-8"/>
+
         {/*Для всяких-всяких*/}
-        <meta name="referrer" content="origin"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-        <title>Clinic</title>
-        {/*Для SSL*/}
-        <link rel="alternate" hrefLang="ru" href="https://clinicapp.ru/"/>
-        {/*Иконка для вкладки*/}
-        <link rel="shortcut icon" href="favicon.png" type="image/png"/>
-        {/*Изображения для соц сетей*/}
-        <link rel="image_src" href="../img/link_img.jpg"/>
-        <meta property="og:image" content="img/link_img.jpg"/>
-        <meta itemProp="image" content="img/link_img.jpg"/>
-        {/*Шрифты*/}
-        <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap"
-            rel="stylesheet"/>
-        <script src="https://use.fontawesome.com/ac0d0afa18.js"></script>
+
+        {/**/}
+
+        {/**/}
+
+
+
+
         {/*Стили*/}
         <link rel="stylesheet" type="text/css"
               href="../css/vendor/bootstrap.min.css"/>

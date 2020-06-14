@@ -165,7 +165,7 @@
     float: right; }
   .reg_bg {
     background: none;
-    background: url(../img/7.jpg) no-repeat left bottom/27%, url(../img/8.jpg) no-repeat right bottom/27%; }
+    background: url(../../public/static/img/7.jpg) no-repeat left bottom/27%, url(../../public/static/img/8.jpg) no-repeat right bottom/27%; }
   .reg_form .form-input {
     width: 87%;
     margin: auto;
@@ -200,7 +200,7 @@
   .main:after {
     content: '';
     height: 113px;
-    background: url(../img/duga.png) no-repeat center top; } }
+    background: url(../../public/static/img/duga.png) no-repeat center top; } }
 
 @media screen and (max-width: 992px) {
   .menu {
@@ -223,7 +223,7 @@
   .main:after {
     content: '';
     height: 112px;
-    background: url(../img/duga.png) no-repeat center top; }
+    background: url(../../public/static/img/duga.png) no-repeat center top; }
   .main_form {
     width: 100%;
     margin-top: 10px !important; }
