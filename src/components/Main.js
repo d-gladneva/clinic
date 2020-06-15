@@ -48,28 +48,19 @@ import jslogowhite from "../img/jslogowhite.svg"
 
 const Main = () => {
 
-    return (<html lang="ru">
+    return (
+      <html lang="ru">
     <head>
-        <meta charSet="UTF-8"/>
+
         {/*Для всяких-всяких*/}
-        <meta name="referrer" content="origin"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-        <title>Clinic</title>
-        {/*Для SSL*/}
-        <link rel="alternate" hrefLang="ru" href="https://clinicapp.ru/"/>
-        {/*Иконка для вкладки*/}
-        <link rel="shortcut icon" href="favicon.png" type="image/png"/>
-        {/*Изображения для соц сетей*/}
-        <link rel="image_src" href="../img/link_img.jpg"/>
-        <meta property="og:image" content="img/link_img.jpg"/>
-        <meta itemProp="image" content="img/link_img.jpg"/>
-        {/*Шрифты*/}
-        <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap"
-            rel="stylesheet"/>
-        <script src="https://use.fontawesome.com/ac0d0afa18.js"></script>
+
+        {/**/}
+
+        {/**/}
+
+
+
+
         {/*Стили*/}
         <link rel="stylesheet" type="text/css"
               href="../css/vendor/bootstrap.min.css"/>

@@ -110,7 +110,7 @@ input::-webkit-calendar-picker-indicator {
   right: -43px;
   height: 50px;
   width: 31px;
-  background: url(../img/arrow-left.png) no-repeat center top/cover;
+  /*background: url(../../public/static/img/arrow-left.png) no-repeat center top/cover;*/
   cursor: pointer;
   -moz-transition: all 0.25s ease;
   -webkit-transition-property: all;
@@ -118,13 +118,13 @@ input::-webkit-calendar-picker-indicator {
   -webkit-transition-timing-function: ease; }
 
 .arrow-left {
-  background-image: url(../img/arrow-left.png);
+  /*background-image: url(../../public/static/img/arrow-left.png);*/
   left: -43px; }
   .arrow-left:hover {
     left: -47px; }
 
 .arrow-right {
-  background-image: url(../img/arrow-right.png);
+  /*background-image: url(../../public/static/img/arrow-right.png);*/
   right: -43px; }
   .arrow-right:hover {
     right: -47px; }
@@ -229,7 +229,7 @@ input::-webkit-calendar-picker-indicator {
     padding-left: 61px;
     padding-top: 6px;
     border-radius: 10px;
-    background: #000 url(../img/apple_white.png) no-repeat center left;
+    /*background: #000 url(../../public/static/img/apple_white.png) no-repeat center left;*/
     background-position: 15px 10px;
     background-size: 32px;
     -moz-transition: all 0.3s ease;
@@ -250,7 +250,7 @@ input::-webkit-calendar-picker-indicator {
       background-color: #014351; }
 
 .store-button-google .store-button_box-content {
-  background-image: url(../img/google-play.png);
+  /*background-image: url(../../public/static/img/google-play.png);*/
   background-position: 15px 10px;
   background-size: 34px; }
   .store-button-google .store-button_box-content .store-button_title {
@@ -540,7 +540,7 @@ input::-webkit-calendar-picker-indicator {
   color: #00705b; }
 
 .main {
-  background: url(../img/fon1.jpg) no-repeat;
+  /*background: url(../../public/static/img/fon1.jpg) no-repeat;*/
   background-position: left top 80px;
   background-size: cover;
   -moz-transition: all 0.25s ease;
@@ -553,7 +553,7 @@ input::-webkit-calendar-picker-indicator {
   display: block;
   width: 100%;
   height: 118px;
-  background: url(../img/duga.png) no-repeat center bottom; }
+  /*background: url(../../public/static/img/duga.png) no-repeat center bottom; */}
 
 .main_title {
   font-family: 'GothamPro';
@@ -604,7 +604,7 @@ input::-webkit-calendar-picker-indicator {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   appearance: none !important;
-  background: rgba(255, 255, 255, 0.4) url(../img/down-arrow.png) no-repeat center right 15px !important;
+  /*background: rgba(255, 255, 255, 0.4) url(../../public/static/img/down-arrow.png) no-repeat center right 15px !important;*/
   border: 1px solid #014351 !important;
   cursor: pointer !important;
   display: block !important;
@@ -646,7 +646,7 @@ input::-webkit-calendar-picker-indicator {
   color: #014755; }
 
 .chosen-container .chosen-results li.no-results {
-  background-color: none;
+  /*background-color: none;*/
   font-family: "GothamPro" !important;
   font-weight: 600 !important;
   color: #014755; }
@@ -671,7 +671,7 @@ input::-webkit-calendar-picker-indicator {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   appearance: none !important;
-  background: rgba(255, 255, 255, 0.4) url(../img/down-arrow.png) no-repeat center right 15px !important;
+  /*background: rgba(255, 255, 255, 0.4) url(../../public/static/img/down-arrow.png) no-repeat center right 15px !important;*/
   border: 1px solid #014351 !important;
   cursor: pointer !important;
   display: block !important;
@@ -700,7 +700,7 @@ input::-webkit-calendar-picker-indicator {
   .list_item_title .comment_list_item_title_img {
     width: 70px;
     height: 70px;
-    background: url(../img/photo_people.png) no-repeat center top/cover;
+    /*background: url(../../public/static/img/photo_people.png) no-repeat center top/cover;*/
     float: left;
     margin-right: 28px; }
   .list_item_title .name-people {
@@ -828,7 +828,7 @@ input::-webkit-calendar-picker-indicator {
   border: none;
   border-radius: 50%;
   background: none;
-  background-image: url(../img/arrow-left.png);
+  /*background-image: url(../../public/static/img/arrow-left.png);*/
   color: #fff;
   padding: 0 !important;
   font: none;
@@ -846,7 +846,7 @@ input::-webkit-calendar-picker-indicator {
   border: none;
   border-radius: 50%;
   background: none;
-  background-image: url(../img/arrow-right.png);
+  /*background-image: url(../../public/static/img/arrow-right.png);*/
   color: #fff;
   padding: 0 !important;
   font: none;
@@ -979,13 +979,13 @@ input::-webkit-calendar-picker-indicator {
   width: 165px;
   height: 165px;
   border-radius: 50%;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-filter: gray;
-          filter: gray;
+  /*-webkit-filter: grayscale(100%);*/
+  /*-moz-filter: grayscale(100%);*/
+  /*-ms-filter: grayscale(100%);*/
+  /*-o-filter: grayscale(100%);*/
+  /*filter: grayscale(100%);*/
+  /*-webkit-filter: gray;*/
+  /*        filter: gray;*/
   /* IE 6-9 */
   -moz-transition: all 0.25s ease;
   -webkit-transition-property: all;
@@ -1060,8 +1060,8 @@ input::-webkit-calendar-picker-indicator {
 .reg {
   margin-top: 131px; }
 
-.reg_bg {
-  background: url(../img/7.jpg) no-repeat left top, url(../img/8.jpg) no-repeat right top; }
+.reg_bg {}
+  /*background: url(../../public/static/img/7.jpg) no-repeat left top, url(../../public/static/img/8.jpg) no-repeat right top; */
 
 .reg_desc {
   text-align: center;
