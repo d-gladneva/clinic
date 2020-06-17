@@ -1,7 +1,7 @@
 import React from "react";
 import sliderImg2 from "../../img/sliderImg2.png";
 
-export const City = () => {
+const City = () => {
 
     return (
         <section className="city">
@@ -90,3 +90,5 @@ export const City = () => {
         </section>
     )
 };
+
+export default City;

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Comment = () => {
+const Comment = () => {
 
     return (
         <section className="comment">
@@ -162,3 +162,5 @@ export const Comment = () => {
         </section>
     )
 };
+
+export default Comment;
