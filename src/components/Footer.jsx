@@ -1,15 +1,13 @@
 import React from "react";
-import cliniclogowhite from "../../img/cliniclogowhite.svg";
-import jslogowhite from "../../img/jslogowhite.svg";
 
-export const Footer = () => {
+const Footer = () => {
 
     return (
         <footer className="footer">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-5 col-lg-4 col-md-12 col-sm-12 col-12">
-                        <a href="https://clinicapp.ru" target="_blank"><img src={cliniclogowhite}
+                        <a href="https://clinicapp.ru" target="_blank"><img src={require("../img/cliniclogowhite.svg")}
                                                                             className="footer_logo" alt="Clinic"/></a>
                         <p className="footer_contact-str">
                             Пишите нам: <span>info@clinic.ru</span>
@@ -103,7 +101,7 @@ export const Footer = () => {
                         <p className="footer_sponsor">
                             При поддержке:
                         </p>
-                        <a href="https://jscorp.ru" target="_blank"><img src={jslogowhite}
+                        <a href="https://jscorp.ru" target="_blank"><img src={require("../img/jslogowhite.svg")}
                                                                          className="footer_js-logo"
                                                                          alt="JS corporation"/></a>
                     </div>
@@ -122,3 +120,5 @@ export const Footer = () => {
         </footer>
     )
 };
+
+export default Footer;

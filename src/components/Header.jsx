@@ -1,16 +1,13 @@
 import React from 'react';
 
-import cliniclogo1 from "../../img/cliniclogo1.png"
-
-
-export const Header = () => {
+const Header = () => {
 
   return (
     <header>
       <section className="menu clearfix">
         Лого
         <a href="https://clinicapp.ru" target="_blank" className="logo"><img
-          className="revealator-slidedown revealator-once" src={cliniclogo1} alt="Clinic"/></a>
+          className="revealator-slidedown revealator-once" src={require("../img/cliniclogo1.png")} alt="Clinic"/></a>
         Навигация
         <div className="nav-menu-box">
           <ul className="nav-menu clearfix revealator-slidedown revealator-once">
@@ -106,3 +103,5 @@ export const Header = () => {
     </header>
   )
 };
+
+export default Header;

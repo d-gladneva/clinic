@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Reg = () => {
+const Reg = () => {
 
     return (
         <section className="reg">
@@ -31,3 +31,5 @@ export const Reg = () => {
         </section>
     )
 };
+
+export default Reg;

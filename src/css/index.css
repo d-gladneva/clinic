@@ -1,0 +1,27 @@
+@import './main.css';
+@import './media.css';
+@import './all-clinic.css';
+@import './all-clinic-media.css';
+@import './city.css';
+@import './city-media.css';
+@import './connect.css';
+@import './connect-media.css';
+@import './fonts.css';
+@import './partnership.css';
+@import './partnership-media.css';
+@import './price.css';
+@import './price-media.css';
+@import './why.css';
+@import './work-media.css';
+@import './work.css';
+@import './why-media.css';
+
+/* @import './vendor/bootstrap.min.css';
+@import './vendor/chosen.css';
+@import './vendor/fm.revealator.jquery.min.css';
+@import './vendor/font-awesome.css';
+@import './vendor/jquery.arcticmodal-0.3.css';
+@import './vendor/owl.carousel.min.css';
+@import './vendor/pushy.css';
+@import './vendor/slick.css';
+@import './vendor/slick-theme.css'; */
