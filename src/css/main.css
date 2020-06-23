@@ -976,6 +976,7 @@ input::-webkit-calendar-picker-indicator {
 
 .city_slider_img {
   display: block;
+  object-fit: cover;
   width: 165px;
   height: 165px;
   border-radius: 50%;

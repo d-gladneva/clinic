@@ -5,28 +5,28 @@ const Header = () => {
   return (
     <header>
       <section className="menu clearfix">
-        Лого
+        {/*Лого*/}
         <a href="https://clinicapp.ru" target="_blank" className="logo"><img
-          className="revealator-slidedown revealator-once" src={require("../img/cliniclogo1.png")} alt="Clinic"/></a>
-        Навигация
+            className="revealator-slidedown revealator-once" src={require("../../img/cliniclogo1.png")} alt="Clinic"/></a>
+        {/*Навигация*/}
         <div className="nav-menu-box">
           <ul className="nav-menu clearfix revealator-slidedown revealator-once">
             <li className="nav-menu_item"><a href="#"><i className="fa fa-users" aria-hidden="true"></i>Для
               пользователей</a>
               <ul className="sub-menu sub-menu-users">
                 <li><a href="#">Заказать улсугу</a></li>
-                <li><a href="all-clinic.html">Клиники</a></li>
-                <li><a href="why.html">Почему Clinic?</a></li>
-                <li><a href="work.html">Как работает Clinic?</a></li>
-                <li><a href="price.html">Цены</a></li>
-                <li><a href="city.html" className="b-n">Города</a></li>
+                <li><a href="all-clinic">Клиники</a></li>
+                <li><a href="why">Почему Clinic?</a></li>
+                <li><a href="work">Как работает Clinic?</a></li>
+                <li><a href="price">Цены</a></li>
+                <li><a href="city" className="b-n">Города</a></li>
               </ul>
             </li>
             <li className="nav-menu_item"><a href="#"><i className="fa fa-medkit" aria-hidden="true"></i>Для
               клиник</a>
               <ul className="sub-menu sub-menu-clinic">
-                <li><a href="partnership.html">Партнёрство с Clinic</a></li>
-                <li><a href="connect.html">Как подключиться?</a></li>
+                <li><a href="partnership">Партнёрство с Clinic</a></li>
+                <li><a href="connect">Как подключиться?</a></li>
               </ul>
             </li>
             <li className="mr-0 nav-menu_item"><a href="#"><i className="fa fa-user-md"

@@ -1,10 +1,11 @@
 import React from 'react';
+import CityList from "../components/City/CityList";
 
 export default function City() {
 
     return (
         <div>
-            <h1>CITY</h1>
+            <CityList/>
         </div>
     )
 }

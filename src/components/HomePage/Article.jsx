@@ -39,7 +39,7 @@ const Article = () => {
                     <div className="owl-carousel article_slider">
                         <div className="article_item">
                             <a href="#">
-                                <img src={require("../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
+                                <img src={require("../../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?
@@ -64,33 +64,7 @@ const Article = () => {
                         </div>
                         <div className="article_item">
                             <a href="#">
-                                <img src={require("../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
-                                <div className="article_slider_item_content">
-                                    <h3 className="article_slider_item_title">
-                                        Кормить ли кошек рыбой и молоком?
-                                    </h3>
-                                    <p className="article_slider_item_date">
-                                        01.01.2019
-                                    </p>
-                                    <ul className="article_slider_item_star-list">
-                                        <li className="star-list_item"><i className="fa fa-star"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star-half-o"
-                                                                          aria-hidden="true"></i></li>
-                                        <li className="star-list_item"><i className="fa fa-star-o"
-                                                                          aria-hidden="true"></i></li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className="article_item">
-                            <a href="#">
-                                <img src={require("../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
+                                <img src={require("../../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?
@@ -116,7 +90,7 @@ const Article = () => {
 
                         <div className="article_item">
                             <a href="#">
-                                <img src={require("../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
+                                <img src={require("../../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?
@@ -142,7 +116,33 @@ const Article = () => {
 
                         <div className="article_item">
                             <a href="#">
-                                <img src={require("../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
+                                <img src={require("../../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
+                                <div className="article_slider_item_content">
+                                    <h3 className="article_slider_item_title">
+                                        Кормить ли кошек рыбой и молоком?
+                                    </h3>
+                                    <p className="article_slider_item_date">
+                                        01.01.2019
+                                    </p>
+                                    <ul className="article_slider_item_star-list">
+                                        <li className="star-list_item"><i className="fa fa-star"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star-half-o"
+                                                                          aria-hidden="true"></i></li>
+                                        <li className="star-list_item"><i className="fa fa-star-o"
+                                                                          aria-hidden="true"></i></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="article_item">
+                            <a href="#">
+                                <img src={require("../../img/sliderImg1.png")} className="article_slider_item_img" alt="Slider Image"/>
                                 <div className="article_slider_item_content">
                                     <h3 className="article_slider_item_title">
                                         Кормить ли кошек рыбой и молоком?

@@ -7,7 +7,7 @@ const Access = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <img src={require("../img/IphoneX.png")} className="access_img" />
+                        <img src={require("../../img/IphoneX.png")} className="access_img" />
                         <div className="access_content">
                             <h2 className="section-title access_title">
                                 Быстрый доступ к Clinic

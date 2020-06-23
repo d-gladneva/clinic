@@ -7,7 +7,7 @@ const Price = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <img src={require("../img/main.svg")} className="price_img" />
+                        <img src={require("../../img/main.svg")} className="price_img" />
                         <div className="price_content">
                             <h2 className="section-title price_title">
                                 Всегда знайте стоимость посещения врача наперед

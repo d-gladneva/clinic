@@ -16,7 +16,7 @@ const Why = () => {
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <ul className="why_list">
                             <li className="why_list_item">
-                                <img src={require("../img/hospital.svg")} className="why_list_img" alt="Peaope and dog"/>
+                                <img src={require("../../img/hospital.svg")} className="why_list_img" alt="Peaope and dog"/>
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Только проверенные клиники в вашем городе
                                 </h3>
@@ -26,7 +26,7 @@ const Why = () => {
                                 </p>
                             </li>
                             <li className="why_list_item why_list-one-title-line why-w-992">
-                                <img src={require("../img/money.svg")} className="why_list_img why_list_img-money" alt="Pig"/>
+                                <img src={require("../../img/money.svg")} className="why_list_img why_list_img-money" alt="Pig"/>
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Лучшие цены
                                 </h3>
@@ -36,7 +36,7 @@ const Why = () => {
                                 </p>
                             </li>
                             <li className="why_list_item">
-                                <img src={require("../img/Objects.svg")} className="why_list_img" alt="Doctor"/>
+                                <img src={require("../../img/Objects.svg")} className="why_list_img" alt="Doctor"/>
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Возможность получать консультации онлайн
                                 </h3>
@@ -46,7 +46,7 @@ const Why = () => {
                                 </p>
                             </li>
                             <li className="why_list_item why-w-992">
-                                <img src={require("../img/Group.svg")} className="why_list_img" alt="Doctor"/>
+                                <img src={require("../../img/Group.svg")} className="why_list_img" alt="Doctor"/>
                                 <h3 className="why_list_title revealator-slidedown revealator-once">
                                     Запись к специалисту в несколько кликов
                                 </h3>
